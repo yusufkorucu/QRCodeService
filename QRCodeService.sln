@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCodeService.Api", "QRCodeService.Api\QRCodeService.Api.csproj", "{DD92571E-EEE1-4D21-A5FC-1A334055209B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCodeService.Core", "QRCodeService.Core\QRCodeService.Core.csproj", "{25C2B78C-B844-4DBA-BCFE-D273DF57E842}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCodeService.Domain", "QRCodeService.Domain\QRCodeService.Domain.csproj", "{CD330BD8-50A3-43C0-8B67-7D831B8746B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeService.Test", "QRCodeService.Test\QRCodeService.Test.csproj", "{EE8F551C-4900-41BE-9CB3-DBB033744F35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD92571E-EEE1-4D21-A5FC-1A334055209B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD92571E-EEE1-4D21-A5FC-1A334055209B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD92571E-EEE1-4D21-A5FC-1A334055209B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD92571E-EEE1-4D21-A5FC-1A334055209B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C2B78C-B844-4DBA-BCFE-D273DF57E842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C2B78C-B844-4DBA-BCFE-D273DF57E842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C2B78C-B844-4DBA-BCFE-D273DF57E842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C2B78C-B844-4DBA-BCFE-D273DF57E842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD330BD8-50A3-43C0-8B67-7D831B8746B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD330BD8-50A3-43C0-8B67-7D831B8746B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD330BD8-50A3-43C0-8B67-7D831B8746B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD330BD8-50A3-43C0-8B67-7D831B8746B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8F551C-4900-41BE-9CB3-DBB033744F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8F551C-4900-41BE-9CB3-DBB033744F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8F551C-4900-41BE-9CB3-DBB033744F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8F551C-4900-41BE-9CB3-DBB033744F35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D919554-EB12-4D64-8DB0-E4EBC408BB73}
+	EndGlobalSection
+EndGlobal
